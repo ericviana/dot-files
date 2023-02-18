@@ -1,0 +1,175 @@
+{
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 70,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "javascript": false,
+    "html": true,
+    "javascriptreact": false
+  },
+  "discord.detailsDebugging": "",
+  "discord.detailsEditing": "",
+  "discord.lowerDetailsDebugging": "",
+  "discord.lowerDetailsEditing": "",
+  "discord.removeDetails": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+    "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.linkedEditing": true,
+  "workbench.startupEditor": "none",
+  "editor.lineNumbers": "relative",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontWeight": "normal",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "vscode-neovim.highlightGroups.highlights": {
+
+    "Directory": "vim",
+    "IncSearch": {
+      "backgroundColor": "theme.editor.findMatchBackground",
+      "borderColor": "theme.editor.findMatchBorder"
+    },
+    "Search": {
+      "backgroundColor": "theme.editor.findMatchHighlightBackground",
+      "borderColor": "theme.editor.findMatchHighlightBorder"
+    },
+    "Visual": {
+      "backgroundColor": "theme.editor.selectionBackground"
+    },
+    "Conceal": "vim",
+    "Substitute": "vim"
+  },
+
+  "editor.cursorSurroundingLines": 15,
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "editor.fontFamily": "'Cascadia Code'",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": 360,
+  "workbench.iconTheme": "material-icon-theme",
+  "vim.commandLineModeKeyBindings": [
+
+  
+  ],
+  "vim.handleKeys": {
+
+
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+  "vim.normalModeKeyBindings": [
+  
+  ],
+  "javascript.format.semicolons": "insert",
+  "discord.suppressNotifications": true,
+  "editor.fontVariations": false,
+  "editor.mouseWheelScrollSensitivity": 2.2,
+  "editor.smoothScrolling": true,
+  "css.lint.unknownAtRules": "ignore",
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeActionsOnSave.rules": null,
+  "files.autoSave": "afterDelay",
+  "material-icon-theme.folders.color": "#8AADF4",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "vim.autoindent": false,
+  "tabout.charactersToTabOutFrom": [
+
+    {
+      "open": "[",
+      "close": "]"
+    },
+    {
+      "open": "{",
+      "close": "}"
+    },
+    {
+      "open": "(",
+      "close": ")"
+    },
+    {
+      "open": "'",
+      "close": "'"
+    },
+    {
+      "open": "\"",
+      "close": "\""
+    },
+    {
+      "open": ":",
+      "close": ":"
+    },
+    {
+      "open": "=",
+      "close": "="
+    },
+    {
+      "open": ">",
+      "close": ">"
+    },
+    {
+      "open": "<",
+      "close": "<"
+    },
+    {
+      "open": ".",
+      "close": "."
+    },
+    {
+      "open": "`",
+      "close": "`"
+    },
+    {
+      "open": ";",
+      "close": ";"
+    }
+  ],
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "workbench.colorTheme": "Catppuccin Macchiato",
+
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.limit.perEditorGroup": true,
+  "window.commandCenter": true,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.showTabs": false,
+  "editor.minimap.autohide": true,
+  // "workbench.activityBar.visible": false,
+}
