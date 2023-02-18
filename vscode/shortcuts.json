@@ -1,0 +1,71 @@
+[
+  {
+    "key": "tab",
+    "command": "selectNextQuickFix",
+    "when": "editorFocus && quickFixWidgetVisible"
+  },
+  {
+    "key": "shift+tab",
+    "command": "selectPrevQuickFix",
+    "when": "editorFocus && quickFixWidgetVisible"
+  },
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "key": "alt+tab",
+    "command": "selectPrevSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "key": "tab",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "command": "editor.action.moveLinesUpAction",
+    "key": "ctrl+k",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+c",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "space e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal'"
+  },
+  {
+    "key": "space g",
+    "command": "workbench.view.scm",
+    "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode == 'Normal'"
+  },
+  {
+    "key": "cmd+g",
+    "command": "-editor.action.nextMatchFindAction",
+    "when": "editorFocus"
+  }
+]
